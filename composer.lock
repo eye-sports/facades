@@ -4,57 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d4062a0cc569dbd2f24bfb0a336a2c5a",
-    "content-hash": "beef0f3d872478532793d656a383bdc5",
+    "hash": "be2dfe1c3db2b48ca1685f5a70f673a5",
+    "content-hash": "9b611d55a8ad090ddc2aecf492ea6f7c",
     "packages": [
-        {
-            "name": "lionar/agreements",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lionar/agreements.git",
-                "reference": "e4da4dd20878f8ff7c84cef8b889e037a98cd012"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lionar/agreements/zipball/e4da4dd20878f8ff7c84cef8b889e037a98cd012",
-                "reference": "e4da4dd20878f8ff7c84cef8b889e037a98cd012",
-                "shasum": ""
-            },
-            "require": {
-                "lionar/support": "*",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "lionar/testing": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Agreed\\": [
-                        "source"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aron Wouters",
-                    "email": "lionar@mail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Lionar's interfaces used throughout all sorts of lionar components.",
-            "keywords": [
-                "Agreements",
-                "component",
-                "lionar"
-            ],
-            "time": "2016-09-28 10:39:08"
-        },
         {
             "name": "lionar/support",
             "version": "dev-master",

@@ -12,9 +12,7 @@ class InputTest extends TestCase
 
 	public function setUp ( )
 	{
-		$this->request = $request = Mockery::mock ( 'Agreed\\Client\\Request', 
-			array ( '/', array ( 'name' => 'Aron Wouters') ) );
-		$this->input = new Input ( $request );
+		$this->input = new Input ( array ( 'name' => 'Aron Wouters') );
 	}
 
 	/**

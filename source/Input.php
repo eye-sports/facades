@@ -2,16 +2,15 @@
 
 namespace Facades;
 
-use Agreed\Client\Request;
 use InvalidArgumentException;
 
 class Input
 {
-	private $request = null;
+	private $data = null;
 
-	public function __construct ( Request $request )
+	public function __construct ( array $data = array ( ) )
 	{
-		$this->request = $request;
+		$this->data = $data;
 	}
 
 	public function get ( $property )
@@ -19,7 +18,7 @@ class Input
 		if ( ! is_string ( $property ) or empty ( $property ) )
 			throw new InvalidArgumentException ( '$property must be a non empty string.' );
 
-		if ( array_key_exists ( $property, $this->request->attributes ) )
-			return $this->request->attributes [ $property ];
+		if ( isset ( $this->data [ $property ] ) )
+			return $this->data [ $property ];
 	}
 }

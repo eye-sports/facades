@@ -10,9 +10,31 @@ class LinkTest extends TestCase
 {
 	public function setUp ( )
 	{
-		$request = $this->request = Mockery::mock ( 'Agreed\\Client\\Request', array ( 'http://eyedouble.nl/' ) );
-		$this->link = new Link ( $request );
+		$base = $this->base = 'http://eyedouble.nl/';
+		$this->link = new Link ( $base );
 	}
+
+	/*
+	|--------------------------------------------------------------------------
+	| Constructor testing.
+	|--------------------------------------------------------------------------
+	*/
+
+	/**
+	 * @test
+	 * @expectedException InvalidArgumentException
+	 * @dataProvider  nonStringValues
+	 */
+	public function __construct_withNonStringValueForBase_throwsException ( $value )
+	{
+		new Link ( $value );
+	}
+
+	/*
+	|--------------------------------------------------------------------------
+	| To method testing.
+	|--------------------------------------------------------------------------
+	*/
 
 	/**
 	 * @test
@@ -30,7 +52,7 @@ class LinkTest extends TestCase
 	public function to_withStringForPath_returnRequestBasePlusPath ( )
 	{
 		$path = 'hello';
-		$result = $this->request->base . $path;
+		$result = $this->base . $path;
 		assertThat ( $this->link->to ( $path ), is ( identicalTo ( $result ) ) );
 	}
 }
