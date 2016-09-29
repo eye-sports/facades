@@ -1,0 +1,36 @@
+{
+	"name": "lionare/facades",
+	"description": "Lionare supporting tools.",
+	"keywords": [ "Lionare", "Support" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		"lionar/agreements": "*",
+		"lionar/support": "*",
+		"php": ">=5.5.9"
+  	},
+	"require-dev": {
+		"lionar/testing": "*"
+	},
+	"autoload": {
+    	"psr-4": {
+			"Facades\\": "source"
+   	 	}
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+    		"Facades\\Tests\\": "tests/Facades",
+    		"Facades\\Response\\Tests\\": "test/Facades/Response"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
