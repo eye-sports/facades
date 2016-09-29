@@ -1,12 +1,12 @@
 {
 	"name": "eye-sports/facades",
-	"description": "Lionare supporting tools.",
+	"description": "Eye-sports facades.",
 	"keywords": [ "Lionare", "Support" ],
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Aron Wouters",
-			"email": "lionar@mail.com",
+			"email": "eye-sports@mail.com",
 			"role": "Developer"
 		}
 	],
@@ -26,7 +26,7 @@
 	"autoload-dev": {
     	"psr-4": {
     		"Facades\\Tests\\": "tests/Facades",
-    		"Facades\\Response\\Tests\\": "test/Facades/Response"
+    		"Facades\\View\\Tests\\": "test/Facades/View"
 		}
 	},
 	"config": {

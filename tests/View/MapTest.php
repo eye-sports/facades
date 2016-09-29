@@ -1,8 +1,8 @@
 <?php
 
-namespace Facades\Response\Tests;
+namespace Facades\View\Tests;
 
-use Facades\Response\Map;
+use Facades\View\Map;
 use Testing\TestCase;
 
 class MapTest extends TestCase

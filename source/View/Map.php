@@ -1,6 +1,6 @@
 <?php
 
-namespace Facades\Response;
+namespace Facades\View;
 
 use InvalidArgumentException;
 
