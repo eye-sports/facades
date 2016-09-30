@@ -4,57 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be2dfe1c3db2b48ca1685f5a70f673a5",
-    "content-hash": "9b611d55a8ad090ddc2aecf492ea6f7c",
-    "packages": [
-        {
-            "name": "lionar/support",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lionar/support.git",
-                "reference": "0ca4e66e946a464455d93544e462b5ac761828c3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lionar/support/zipball/0ca4e66e946a464455d93544e462b5ac761828c3",
-                "reference": "0ca4e66e946a464455d93544e462b5ac761828c3",
-                "shasum": ""
-            },
-            "require-dev": {
-                "lionar/testing": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Support\\": "source"
-                },
-                "files": [
-                    "helpers/arrays.php",
-                    "helpers/classes.php",
-                    "helpers/serialization.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aron Wouters",
-                    "email": "lionar@mail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Supporting tools and functions.",
-            "keywords": [
-                "component",
-                "lionar",
-                "support"
-            ],
-            "time": "2016-09-27 11:25:11"
-        }
-    ],
+    "hash": "dac79400fc982ecb0178aaeee74ca12f",
+    "content-hash": "ca30e74d8c039497cf705fd3212c906d",
+    "packages": [],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -410,16 +362,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd"
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/9270140b940ff02e58ec577c237274e92cd40cdd",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +403,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-06-10 09:48:41"
+            "time": "2016-09-30 07:12:33"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -813,12 +765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3d7e92beaed4518fc1c4f67091f0ebe23e1e0b40"
+                "reference": "376acc02748ad93ab2795630d7298b96313230b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3d7e92beaed4518fc1c4f67091f0ebe23e1e0b40",
-                "reference": "3d7e92beaed4518fc1c4f67091f0ebe23e1e0b40",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/376acc02748ad93ab2795630d7298b96313230b8",
+                "reference": "376acc02748ad93ab2795630d7298b96313230b8",
                 "shasum": ""
             },
             "require": {
@@ -887,7 +839,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-09-22 17:38:35"
+            "time": "2016-09-30 09:40:06"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

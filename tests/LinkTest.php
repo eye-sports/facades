@@ -1,9 +1,5 @@
 <?php
 
-namespace Facades\Tests;
-
-use Mockery;
-use Facades\Link;
 use Testing\TestCase;
 
 class LinkTest extends TestCase

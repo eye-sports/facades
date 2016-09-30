@@ -1,9 +1,5 @@
 <?php
 
-namespace Facades;
-
-use InvalidArgumentException;
-
 class Link
 {
 	private $base = null;

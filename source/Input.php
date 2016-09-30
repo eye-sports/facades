@@ -1,9 +1,5 @@
 <?php
 
-namespace Facades;
-
-use InvalidArgumentException;
-
 class Input
 {
 	private $data = null;

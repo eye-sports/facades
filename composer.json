@@ -11,7 +11,6 @@
 		}
 	],
 	"require" : {
-		"lionar/support": "*",
 		"php": ">=5.5.9"
   	},
 	"require-dev": {
@@ -19,13 +18,12 @@
 	},
 	"autoload": {
     	"psr-4": {
-			"Facades\\": "source"
+			"": "source"
    	 	}
   	},
 	"autoload-dev": {
     	"psr-4": {
-    		"Facades\\Tests\\": "tests/Facades",
-    		"Facades\\View\\Tests\\": "test/Facades/View"
+    		"": "tests"
 		}
 	},
 	"config": {

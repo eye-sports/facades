@@ -1,8 +1,5 @@
 <?php
 
-namespace Facades\Tests;
-
-use Facades\Path;
 use Testing\TestCase;
 
 class PathTest extends TestCase

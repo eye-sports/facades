@@ -1,9 +1,5 @@
 <?php
 
-namespace Facades\Tests;
-
-use Mockery;
-use Facades\Input;
 use Testing\TestCase;
 
 class InputTest extends TestCase
