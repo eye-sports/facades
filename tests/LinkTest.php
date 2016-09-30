@@ -1,5 +1,8 @@
 <?php
 
+namespace Tests;
+
+use Link;
 use Testing\TestCase;
 
 class LinkTest extends TestCase

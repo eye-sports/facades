@@ -1,5 +1,8 @@
 <?php
 
+namespace Tests;
+
+use Input;
 use Testing\TestCase;
 
 class InputTest extends TestCase
